@@ -52,8 +52,34 @@
     justify-content: space-between;
 }
 .header-main_category {
+    position: relative;
     width: 225px;
     background-color: #f56517;
+    padding:22px 15px 22px 0 ;
+    bottom: -13px;
+    transition-property: color, background-color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+.header-main_category:hover, .header-main_category:focus {
+    cursor: pointer;
+    background-color: #f68446;
+
+}
+.header-main_category label {
+    padding-left: 15px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+.header-main__menu {
+    position: absolute;
+    list-style: none;
+    top: 150px;
+}
+.menu-item {
+    list-style: none;
 }
 .link {
     text-decoration: none;
