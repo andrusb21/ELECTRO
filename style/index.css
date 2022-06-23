@@ -78,11 +78,13 @@
 }
 
 .header-main__menu {
+    width: 239px;
     position: absolute;
     list-style: none;
     top: 140px;
-    padding: 0 20px 0 5px;
     box-shadow: 1px 1px 5px #f68446;
+    box-sizing: border-box;
+    padding-left: 8px;
 }
 
 .menu-list {
@@ -97,7 +99,6 @@
 }
 
 .header-main__menu:hover {
-
 
 }
 
